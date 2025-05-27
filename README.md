@@ -1,5 +1,17 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+This project demonstrates how to create and use a simple Android native module (`HelloWorld`) in a React Native application.
+
+---
+
+## 🧰 Features
+
+- Native module written in Java
+- Returns a message to React Native via `Promise`
+- Fully integrated into the React Native JavaScript/TypeScript side
+
+---
+
 # Getting Started
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
@@ -25,8 +37,14 @@ With Metro running, open a new terminal window/pane from the root of your React 
 ### Android
 
 ```sh
-# Using npm
-npm run android
+# Install dependencies
+npm install
+
+# Start Metro
+npx react-native start
+
+# In a new terminal, run the app on Android
+npx react-native run-android
 
 # OR using Yarn
 yarn android
@@ -95,3 +113,12 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+# iReactNativeBridge
+
+
+
+- Output
+ Once everything is correctly set up, you should see the following message in your app:
+
+
+Hello World from Native!
