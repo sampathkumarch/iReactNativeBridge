@@ -1,4 +1,4 @@
-package com.reactbridge; // Package name
+package com.reactnativebridge; // Package name
 
 import com.facebook.react.bridge.ReactApplicationContext; // Provides access to React Native environment
 import com.facebook.react.bridge.ReactContextBaseJavaModule; // Base class for creating native modules

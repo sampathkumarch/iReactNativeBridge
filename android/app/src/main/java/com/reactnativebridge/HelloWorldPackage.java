@@ -1,4 +1,4 @@
-package com.reactbridge; // Package name
+package com.reactnativebridge; // Package name
 
 import com.facebook.react.ReactPackage; // Interface for registering modules/view managers
 import com.facebook.react.bridge.NativeModule; // Interface for creating modules
